@@ -58,4 +58,6 @@ include("subproblems.jl")
 include("bounded.jl")
 include("algorithms.jl")
 export lm_trust_region!
+export QRCholStrategy, QRStrategy, LQStrategy, LQCholStrategy
+export NoScaling, JacobianScaling
 end

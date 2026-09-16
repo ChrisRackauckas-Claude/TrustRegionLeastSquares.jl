@@ -14,6 +14,7 @@ env
 node_modules
 # local tool state
 .CondaPkg/
+pycutest_cache_holder/
 .vscode/
 .gemini/
 .claude/
